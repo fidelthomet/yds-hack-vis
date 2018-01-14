@@ -1,0 +1,21 @@
+<template>
+  <div class="{{ componentName }}">
+    {{ componentName }} Component
+  </div>
+</template>
+
+<script>
+export default {
+  name: '{{ componentName }}'
+}
+</script>
+
+<style lang="scss">
+@import '../styles/global';
+
+$c: '{{ componentName }}';
+
+.#{$c} {
+
+}
+</style>
